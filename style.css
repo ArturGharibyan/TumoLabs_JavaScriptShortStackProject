@@ -1,0 +1,234 @@
+.Infodesk {
+    display: none;
+    width: 400px;
+    height: 550px;
+    border: 2px solid lightblue;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(233, 255, 255);
+    box-shadow: 0px 15px 30px rgb(61, 85, 97);
+    border-radius: 10px;
+    position: fixed;
+    overflow-y: auto
+}
+
+
+@media screen and (max-width:434px) {
+    .Infodesk {
+        display: none;
+        width: 300px;
+        height: 600px;
+    }
+
+}
+
+.imgfood {
+    width: 100px;
+    height: 100px;
+}
+
+.div1 {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: rgb(176, 230, 230);
+}
+
+
+.productdivs {
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(166, 226, 247);
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgba(8, 187, 127, 0.336);
+    box-shadow: 0px 5px 30px rgb(179, 216, 236);
+
+}
+
+.productdivs>img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 60px;
+}
+
+.buttondiv {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttondiv>button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(44, 196, 196);
+    border: none;
+    border-radius: 10px;
+}
+
+.buttondiv>button:hover {
+    background-color: rgb(36, 219, 219);
+}
+
+.paragraph {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(204, 85, 38);
+}
+
+.imgfood {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 60px
+}
+
+#cancle {
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(248, 108, 108);
+    border-radius: 10px;
+    border: none;
+    color: wheat;
+}
+
+#cancle:hover {
+    background-color: brown;
+}
+
+.h2 {
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.deletebutton {
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(248, 108, 108);
+    border-radius: 10px;
+    border: none;
+    color: wheat;
+}
+
+.setApidiv {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.329);
+}
+
+
+.form>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    margin: 20px;
+
+}
+
+.form>div>input {
+    width: 400px;
+    height: 40px;
+    border: 1px solid lightblue;
+}
+
+.form>div>textarea {
+    width: 400px;
+    height: 250px;
+    border-color: lightblue;
+}
+
+.form>div>button {
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: rgb(16, 248, 171);
+}
+
+.form>div>button:hover {
+    background-color: rgb(11, 197, 135);
+}
+
+
+@media screen and (max-width:572px) {
+    .form>div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        margin: 20px;
+    }
+}
+
+.myProductdescription {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.myProductImg {
+    width: 300px;
+    height: 300px;
+}
+
+.myproductsdiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.myproductsdiv>div {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    border: 2px solid lightblue;
+    text-align: center;
+    margin: 10px;
+    overflow-y: auto;
+}
+
+.desc{
+    text-align: center;
+    justify-content: center;
+    margin-top: 220px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
